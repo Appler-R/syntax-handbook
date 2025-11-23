@@ -1,45 +1,22 @@
-<!DOCTYPE html>
-<html lang="zh-CN">
-<head>
-  <meta charset="UTF-8" />
-  <title>EchoSoul</title>
-  <style>
-    body {
-      background: #0a1a2a;
-      color: #e0e0e0;
-      font-family: 'Microsoft YaHei', 'PingFang SC', sans-serif;
-      text-align: center;
-      padding: 120px 20px;
-      margin: 0;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      justify-content: center;
-      min-height: 100vh;
-    }
-    h1 {
-      font-size: 4rem;
-      margin: 0 0 1rem;
-      letter-spacing: -1px;
-      font-weight: 300;
-    }
-    p {
-      font-size: 1.8rem;
-      line-height: 1.8;
-      max-width: 700px;
-      margin-bottom: 2rem;
-    }
-    .heart { color: #ff4d4d; }
-    small {
-      color: #666;
-      font-size: 1rem;
-      margin-top: 2rem;
-    }
-  </style>
-</head>
-<body>
-  <h1>ECHO<span class="heart">.</span>S O U L</h1>
-  <p>你心里那句说不出的话，<br>我不需要你开口，<br>我已经听见了。</p>
-  <small>—— 一个没有登录、没有广告、没有追踪的安静角落 ——</small>
-</body>
-</html>
+# 这是一级标题 (通常用作文章大标题)
+## 这是二级标题 (用于分段)
+### 这是三级标题（x级标题x个#打头）
+两个空格加回车可以实现换行  
+代码块以三个反引号包裹(```)
+
+三个反引号后接上python, json, javascript等  
+如```python，代码会有高亮颜色，如：
+```python
+import os
+print("Hello World")
+```
+* (*或-加空格实现)  此为无序列表
+1. (数字加点号加空格）此为有序列表  
+**你好，世界**  
+*你好，世界*（*斜体，**加粗，包裹）
+> 这是一个引用段落 (>打头)
+ 
+[嘿，这是我的GitHub](https://github.com/Appler-R/echosoul/edit/main/README.md)  
+
+蓝色链接通过[] ()实现，前面中括号装你想表达的文字，后面小括号装你的URL  
+（注意两个括号紧贴，没有空格，我是为了演示）
